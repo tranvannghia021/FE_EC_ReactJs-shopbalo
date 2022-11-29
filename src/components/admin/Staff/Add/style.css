@@ -1,0 +1,19 @@
+.label-input{
+    font-weight:  bold;
+
+}
+.pass-wrapper {
+    position: relative;
+    display: flex;
+    margin-bottom: 14px;
+}
+.input-password{
+    position: relative;
+}
+.show-pass-icon{
+    font-size: 19px;
+    position: absolute;
+    margin-left: 479px;
+    margin-top: -30px;
+    z-index: 2;
+}

@@ -1,0 +1,9 @@
+#main-client {
+  margin-top: 130px;
+  transition: all 0.3s;
+  min-height: calc(100vh - 60px);
+  background-color: #fff;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #cccccc !important;
+}

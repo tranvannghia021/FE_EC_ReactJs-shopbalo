@@ -1,0 +1,27 @@
+
+
+.container_chart_order {
+    margin-top:1rem;
+    /*width: 1115px;*/
+    padding: 2.2rem 1.8rem;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 10px #F1F2FA;
+    border-radius: 8px;
+
+}
+.container_chart_order .chart-header{
+    position: relative;
+    font-size:1.5rem;
+    font-weight:bold;
+    padding-left:1.2rem;
+
+}
+.container_chart_order .chart-header .chart-button {
+    position: absolute;
+    right: 0.1rem;
+    top:0.1rem;
+    margin-bottom: 0.2rem;
+}
+.container_chart_order .chart-footer {
+    padding-left:1.2rem;
+}

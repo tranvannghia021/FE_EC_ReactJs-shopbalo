@@ -1,0 +1,53 @@
+#skeleton.table {
+  border-color: transparent;
+}
+
+#skeleton {
+  border-collapse: separate;
+  border-spacing: 0 8px;
+}
+
+#skeleton thead,
+#skeleton tbody {
+  background-color: var(--bs-white);
+}
+
+#skeleton thead tr th:first-child,
+#skeleton tbody tr td:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+#skeleton thead tr th:last-child,
+#skeleton tbody tr td:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+#skeleton thead tr th,
+#skeleton tbody tr td {
+  padding: var(--16px);
+}
+
+#skeleton thead tr th:last-child,
+#skeleton tbody tr td:last-child {
+  border-bottom-width: 0;
+}
+
+#skeleton tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-style: none;
+}
+
+#skeleton tbody tr td {
+  vertical-align: middle;
+}
+
+table#skeleton button {
+  background-color: var(--bs-gray-300);
+  border-color: var(--bs-gray-300);
+}

@@ -1,0 +1,15 @@
+.modal-header {
+  border-bottom: 2px solid var(--bs-gray-300) !important;
+  background-color: var(--bs-gray-100);
+}
+
+.modal-header button.btn-close {
+  display: none;
+}
+.modal-md{
+  width: 750px !important;
+}
+.pd-0{
+  padding: 0 !important;
+}
+

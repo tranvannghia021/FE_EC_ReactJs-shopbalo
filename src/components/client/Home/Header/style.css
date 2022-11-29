@@ -1,0 +1,51 @@
+.container-menu-desktop {
+  position: fixed !important;
+  border-top-style: solid;
+  -o-border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+  border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.main-menu-li {
+  display: block;
+  position: relative;
+  padding: 20px 10px 20px 0px;
+  margin: 0px 4px 0px 14px;
+  font-family: Poppins-Medium;
+  font-size: 19px;
+  color: #333;
+  padding: 5px 0px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+.main-menu-li:hover {
+  color: #6c7ae0;
+}
+
+.active-link {
+  color: #6c7ae0;
+}
+
+.wrap-menu-desktop {
+  background-color: #fff !important;
+  top: 0 !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.search-header {
+  position: relative;
+}
+
+.search-header .icon-search {
+  position: absolute;
+  right: 0;
+}
+.search-header input {
+  padding-right: 2rem;
+}

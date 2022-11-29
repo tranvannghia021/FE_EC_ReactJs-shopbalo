@@ -1,0 +1,38 @@
+.edit_form form {
+    width: 90%;
+    background: var(--bs-white);
+    padding: var(--24px);
+    border-radius: var(--6px);
+    box-shadow: var(--box-shadow);
+}
+
+.edit_form form table tbody tr td {
+    vertical-align: middle;
+}
+
+.image-product-slide {
+    display: flex;
+    position: relative;
+}
+
+.multi-preview-slide-product {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+
+.btn-delete-product-slide {
+    margin-left: 5px;
+    cursor: pointer;
+    color: red;
+}
+
+.image-product-slide-item {
+    position: relative;
+    border-right: 1px solid;
+    padding: 10px;
+    margin: 5px;
+}

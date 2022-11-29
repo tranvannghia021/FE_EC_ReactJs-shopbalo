@@ -1,0 +1,1 @@
+export  const cartSelector=(sate)=>sate.cart.cartData

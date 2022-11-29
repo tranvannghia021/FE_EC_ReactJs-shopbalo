@@ -1,0 +1,42 @@
+.slider-homepage {
+  width: 100%;
+  position: relative;
+}
+
+summary {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  margin-top: -50px;
+  text-align: left;
+}
+
+summary .description-homepage {
+  color: #333;
+  font-size: 2rem;
+}
+
+summary .name-homepage {
+  font-size: 4rem;
+  color: #333;
+  text-transform: uppercase;
+  line-height: 1.1;
+  padding: 2rem 0;
+  font-weight: bold;
+}
+
+summary .button-homepage {
+  border-radius: 2rem;
+  background-color: #717fe0;
+  text-transform: uppercase;
+  min-width: 161px;
+  height: 46px;
+  font-size: 15px;
+  color: #fff;
+  font-weight: bold;
+}
+
+summary .button-homepage:hover {
+  background-color: #000;
+  transition: ease 0.5s;
+}

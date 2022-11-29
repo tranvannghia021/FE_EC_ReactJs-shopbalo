@@ -1,0 +1,10 @@
+#main {
+  margin-left: 340px;
+  /* margin-top: 60px; */
+  transition: all 0.3s;
+  min-height: 100vh;
+  background-color: #ffffff !important;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #cccccc !important;
+}

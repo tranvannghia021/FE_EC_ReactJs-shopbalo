@@ -1,0 +1,1 @@
+export const isOpenCartCompact = (state) => state.homeClient.isOpenCartCompact;

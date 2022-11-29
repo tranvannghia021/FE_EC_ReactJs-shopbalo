@@ -1,0 +1,32 @@
+.icon-edit-checkout {
+  position: relative;
+}
+
+.icon-edit-checkout svg {
+  position: absolute;
+  top: var(--12px);
+  bottom: var(--12px);
+  right: var(--12px);
+  cursor: pointer;
+}
+.info_invoice {
+  width: 100%;
+}
+.info-invoice-left {
+  width: 150px;
+}
+.iconIamge {
+  width: 70px;
+  height: 70%;
+}
+.font_checkout {
+  width: 100% !important;
+}
+.text-summary {
+  font-size: 16px;
+  line-height: 160%;
+}
+.order-summary {
+  box-shadow: 2px 4px 8px -1px rgb(84 81 81);
+  border-radius: 10px;
+}

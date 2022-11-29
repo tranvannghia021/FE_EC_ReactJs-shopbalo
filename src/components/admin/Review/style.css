@@ -1,0 +1,39 @@
+.img-avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 3px rgba(139, 142, 142, 0.2);
+}
+
+#text-price {
+    color: #999;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+@media only screen and (min-width:668px) and (max-width:850px) {
+    .img-avatar {
+        width: 80px;
+    }
+}
+
+.row-data {
+    overflow: hidden;
+}
+
+.row-data:hover {
+    transform: scale(1.01);
+    background-color: var(--bs-white);
+    box-shadow: 1px 3px 3px rgba(139, 142, 142, 0.3);
+    border-radius: 4px;
+}
+
+.choose-row-data {
+    box-shadow: 1px 3px 3px var(--bs-red-100);
+}
+
+.status-review:hover,
+.status-review:active {
+    opacity: 0.6;
+}

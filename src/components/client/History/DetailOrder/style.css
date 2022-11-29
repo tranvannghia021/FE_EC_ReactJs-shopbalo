@@ -1,0 +1,27 @@
+.order_detail_root {
+  max-height: 500px;
+  overflow-y: scroll;
+  padding-bottom: 20px;
+}
+.detail-order {
+  background-color: var(--bs-white);
+  box-shadow: 5px 10px 10px grey;
+  border-radius: 10px;
+}
+.image_detail_order {
+  padding: 10px 20px;
+}
+.total_order_detail {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto !important;
+}
+.text-header-history {
+  font-size: 1.6rem;
+  font-weight: 600;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

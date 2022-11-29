@@ -1,0 +1,29 @@
+input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: #c6c6cb;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #211f1f;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}
+
+input[type=file]::file-selector-button:hover {
+    background: #47a28e;
+    font-weight: bold;
+    color: #fff;
+}
+.img-upload-review{
+    width: 100%;
+    padding: 10px 20px;
+    border: 2px dashed var(--bs-brown-200);
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.img-upload-review .img{
+    width: 135px;
+    height: 110px;
+    border-radius: 3px;
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
+}

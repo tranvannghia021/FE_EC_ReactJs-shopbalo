@@ -1,0 +1,36 @@
+.filter-button {
+    width: 126px;
+}
+
+.filter-button,
+.filter-button:hover,
+button.filter-button:focus {
+    border: var(--2px) solid #ced4da;
+    background-color: var(--bs-white);
+    color: var(--bs-black);
+}
+
+.filter-button .fb-icon {
+    border-left: 2px solid #ced4da;
+    padding-left: var(--12px);
+}
+
+button.filter-button.dropdown-toggle::after {
+    content: none;
+}
+
+button.filter-button~.dropdown-menu.show {
+    border-width: 2px;
+    min-width: auto;
+}
+
+button.filter-button~.dropdown-menu.show .dropdown-item {
+    padding: 0;
+}
+
+button.filter-button~.dropdown-menu.show .dropdown-item:focus,
+button.filter-button~.dropdown-menu.show .dropdown-item:hover,
+button.filter-button~.dropdown-item.show .dropdown-item:active {
+    background-color: transparent !important;
+    color: inherit;
+}

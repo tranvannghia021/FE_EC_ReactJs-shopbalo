@@ -1,0 +1,36 @@
+.widget-container {
+  width: 20% !important;
+  margin-right: 20px;
+}
+.widget-content {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  height: 90px;
+  /* background-color: #00a65a; */
+}
+.widget-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  border-right: 1px solid #ffffff;
+  color: #ffffff !important;
+  height: 100%;
+}
+.widget-body {
+  padding: 7px;
+  color: #ffffff;
+  height: 100%;
+}
+.title-info {
+  font-size: 1rem;
+}
+.number-info {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.date-info {
+  border-top: 1px solid #ffffff;
+  width: 100%;
+  font-size: 0.9rem;
+}

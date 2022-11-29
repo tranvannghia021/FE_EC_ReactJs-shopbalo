@@ -1,0 +1,28 @@
+ul#list-group .app-active-link .list-group-item,
+ul#list-group .list-group-item:hover {
+  background-color: var(--bs-danger);
+  border-color: var(--bs-danger);
+  color: var(--bs-white);
+
+  transition: all 0.5s;
+}
+
+ul#list-group a .list-group-item {
+  background-color: var(--bs-gray-100);
+}
+
+ul#list-group a .list-group-item {
+  border-radius: var(--6px);
+}
+
+ul#list-group a:not(:last-child) {
+  margin-bottom: var(--6px);
+}
+
+ul#list-group a .list-group-item {
+  border: none;
+}
+.app-active-link {
+  background-color: var(--bs-danger);
+  border-radius: var(--6px);
+}

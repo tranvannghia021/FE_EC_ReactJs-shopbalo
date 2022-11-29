@@ -1,0 +1,15 @@
+.product-list-row-container {
+  width: 100%;
+  /* grid-gap: 2rem; */
+}
+#shop__title-main {
+  color: #000;
+}
+
+.header-fillter{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
