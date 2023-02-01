@@ -1,5 +1,6 @@
 import axiosClient from '../../axiosClient';
 import { concatQueryString } from '../../../utils/concatQueryString';
+import axiosClientGo from '../../axiosClientGo';
 // import { getCookies } from '../Auth';
 
 // export const configHeadersAuthenticate = () => {
@@ -14,7 +15,7 @@ import { concatQueryString } from '../../../utils/concatQueryString';
 export const getAllSlider = async () => {
   const url = '/api/client/slider';
 
-  const response = await axiosClient.get(url);
+  const response = await axiosClientGo.get(url);
 
   if (response.status === 200) {
     return response.data;
@@ -26,7 +27,8 @@ export const getAllSlider = async () => {
 export const getAllCategory = async () => {
   const url = '/api/client/category';
 
-  const response = await axiosClient.get(url);
+
+  const response = await axiosClientGo.get(url);
 
   if (response.status === 200) {
     return response.data;
